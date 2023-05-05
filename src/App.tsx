@@ -1,17 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react';
+import AnimatedRoutes from './AnimatedRoutes';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <Router>
+      <Suspense fallback={<h1>Loading...</h1>}>
+        <AnimatedRoutes />
+      </Suspense>
+    </Router>
   );
 }
 

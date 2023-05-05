@@ -7,8 +7,5 @@
     "main.073c9b0a.css.map": "/poke-splash/static/css/main.073c9b0a.css.map",
     "main.574d805a.js.map": "/poke-splash/static/js/main.574d805a.js.map"
   },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.574d805a.js"
-  ]
+  "entrypoints": ["static/css/main.073c9b0a.css", "static/js/main.574d805a.js"]
 }
