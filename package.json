@@ -2,7 +2,7 @@
   "name": "poke-splash",
   "version": "0.1.0",
   "private": true,
-   "homepage": "http://TaronVardanyan.github.io/poke-splash",
+  "homepage": "http://TaronVardanyan.github.io/poke-splash",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -23,8 +23,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-     "predeploy" : "npm run build",
-     "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .ts,.tsx",
