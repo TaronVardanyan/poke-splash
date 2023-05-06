@@ -25,8 +25,6 @@ const PokemonsList = ({ state, dispatch }: Props) => {
   const [isListVisible, setListVisibilityState] = useState(true);
   const navigate = useNavigate();
 
-  console.log(state, 3333);
-
   const {
     run: runGetPokes,
     data,
