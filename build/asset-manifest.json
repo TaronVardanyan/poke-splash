@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/poke-splash/static/css/main.e8e9d22b.css",
-    "main.js": "/poke-splash/static/js/main.7c7d3a6b.js",
+    "main.js": "/poke-splash/static/js/main.59cc1d8f.js",
     "static/media/main-wallpaper.jpg": "/poke-splash/static/media/main-wallpaper.72d1fb14c4c5603e3574.jpg",
     "index.html": "/poke-splash/index.html",
     "main.e8e9d22b.css.map": "/poke-splash/static/css/main.e8e9d22b.css.map",
-    "main.7c7d3a6b.js.map": "/poke-splash/static/js/main.7c7d3a6b.js.map"
+    "main.59cc1d8f.js.map": "/poke-splash/static/js/main.59cc1d8f.js.map"
   },
-  "entrypoints": ["static/css/main.e8e9d22b.css", "static/js/main.7c7d3a6b.js"]
+  "entrypoints": ["static/css/main.e8e9d22b.css", "static/js/main.59cc1d8f.js"]
 }
