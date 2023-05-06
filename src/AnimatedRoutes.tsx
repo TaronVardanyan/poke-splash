@@ -6,9 +6,8 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence>
       <Routes>
-        <Route caseSensitive path="/poke-splash" element={<PokemonsList />}>
-          <Route caseSensitive path="/poke-splash/:id" element={<PokemonDetails />} />
-        </Route>
+        <Route caseSensitive path="/poke-splash" element={<PokemonsList />} />
+        <Route caseSensitive path="/poke-splash/:name" element={<PokemonDetails />} />
       </Routes>
     </AnimatePresence>
   );
